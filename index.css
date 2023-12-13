@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-color: lightblue;
+    height: 100vh;
+  
+    position: relative;
+}
+.logo{
+width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    animation-name: uperanimate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      
+    
+}
+
+.logos{
+    width: 50px;
+}
+.home,.about,.nacoss,.admin,.profile,.upload,.course{
+    text-decoration: none;
+   margin-left: -20px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-transform:capitalize;
+    font-size: 15px;
+   width: 20px;
+  
+
+}
+.home1,.about1,.nacoss1,.admin1,.profile1,.course1,.upload1{
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 10px;
+    border-right: 1px solid blue;
+    margin: auto;
+    padding-right: 60px;
+    border-radius: 20px;
+    
+}
+
+.ulelement{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+    margin: auto;
+    
+    
+}
+.linkelement{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+  
+    
+    
+}
+a:hover{
+    color: lightblue;
+}
+@keyframes uperanimate{
+    33%{
+        background-color:lightblue ;
+    }
+         66% {
+             background-color: rgb(213, 230, 173);
+         }
+}
+.departmetsection,.opacity{
+    width: 100%;
+   
+    height: 100vh;
+   
+   
+    position: relative;
+}
+.nameinstitute{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    padding-left: 60px;
+    text-transform: uppercase;
+    margin-top: -400px;
+ position: absolute;
+ margin-left: 230px;
+padding: 100px;
+opacity: 0.5;
+border-radius: 30px;
+
+}
+.bachimg{
+   width: 100%;
+   height: 100vh;
+  
+}
+.inaff{
+    margin-left: -30px;
+}
+.opacity{
+   background-color: rgb(0, 0, 0);
+   opacity: 0.6;
+    position: absolute;
+}
+.textcontent{
+    margin: auto;
+        
+        width: 500px;
+        padding-left: 60px;
+        text-transform: uppercase;
+        margin-top: -450px;
+        position: absolute;
+        margin-left: 260px;
+        padding: 100px;
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+}
+.displayimg{
+    margin: 0;
+    padding: 0;
+position: relative;
+    width: 100%;
+    height: 200px;
+ 
+}
+
+.displayimages{
+width: 50%;
+height: 200px;
+border: 2px solid black;
+margin: auto;
+margin-top:10px ;
+position: relative;
+overflow: hidden;
+}
+.formsections{
+   
+    height: 400px;
+ 
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgb(91, 136, 171), lightblue);
+    
+}
+/*media query*/
+@media screen and (max-width:400px) {
+    .container{
+        width: 500px;
+        background-color: red;
+    }
+    .nameinstitute,.textcontent{
+        margin-left: 52px;
+        width: 180px;
+    }
+    
+    .textcontent{
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 4px;
+        position: relative;
+     
+      margin-top: -430px;
+    }
+    li{
+        margin-left: 40px;
+       
+    }
+    .ulelement{
+        display: block;
+    }
+   .formsections{
+    margin-top: 100px;
+   }
+   
+}
+
+
+#img1{
+background-image: url("imgs/images (53).jpg");
+width: 200px;
+height: 200px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+
+}
+.imgs{
+display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    margin-left: 180px;
+    transition: 2s;
+    overflow: hidden;
+}
+#img2 {
+    background-image: url("imgs/images\ \(56\).jpg");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+position: absolute;
+}
+#img3 {
+    background-image: url("imgs/images\ \(57\).jpg ");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.displayall{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+    margin-top:20px;
+}
+.profileform{
+    width: 400px;
+    height: 300px;
+    box-shadow: 2px 2px 10px 2px black;
+    margin:20px auto;
+   margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(111, 183, 232);
+    border-radius: 5px;
+    
+}
+.formsection{
+    margin: auto;
+}
+.studentpro{
+margin-left: 30px;
+font-family: sans-serif;
+color: rgb(0, 0, 0);
+}
+.inputdiv{
+    margin:80px auto;
+
+   display: block;
+   width: 200px;
+}
+.login{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 200px;
+    padding: 6px;
+    width: 70px;
+    cursor: pointer;
+    border: 2px solid rgb(251, 251, 251);
+    border-radius: 20px;
+    background: transparent;
+    color: black;
+    font-family: sans-serif;
+}
+.login1{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.name{
+    margin: 10px;
+    outline: none;
+border-radius: 2px;
+border: none;
+height: 20px;
+}
+.studentpro{
+    margin-left: 100px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    position: absolute;
+}
+
+    /*information section*/
+    .information{
+        position: absolute;
+        margin-top: 530px;
+       
+    }
+    .information{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        transform: 10s;
+    }
+  
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: darkblue;
+    margin-top: 900px;
+}
+.required{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 20px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    
+}
+.reqiredinfo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+  position: absolute;
+  margin-top: 16px;
+  text-transform:uppercase;
+}
+.information1{
+    width: 95%;
+ margin: auto;
+ padding-top: 20px;
+}
+.information2 {
+    width: 98%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    box-shadow: 2px 2px 10px 2px rgb(154, 153, 153);
+}

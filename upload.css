@@ -1,0 +1,252 @@
+
+*{
+        margin: 0;
+            padding: 0;
+}.containerup{
+    width: 100%;
+    height: 280vh;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+}
+.containerup2{
+    width: 95%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: lightblue;
+        margin: auto;
+        border-radius: 10px;
+        position: relative;
+}
+.uploadpic{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+  border-radius: 50%;
+  margin:10px auto;
+  display: flex;
+  flex-direction: column;
+}
+.files{
+margin:1px auto;
+}
+.formall{
+width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    flex-direction: column;
+    
+}
+input{
+    margin: 5px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.formall{
+    margin:10px auto;
+    
+}
+.submit{
+  position: absolute;
+    left: 300px;
+    bottom: 20px;
+    display: flex;
+  margin-left:590px;
+ padding: 10px;
+border-radius: 10px;
+color: blue;
+background-color: transparent;
+cursor: pointer;
+}
+select{
+    display: block;
+    margin: 5px;
+}
+.head{
+    width: 100%;
+height: 60px;
+background-color: black;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+}
+.imglogo{
+    width: 200px;
+}
+.imglogonacos{
+    width: 50px;
+    padding-left: 10px;
+}
+.comp3{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    height: 500px;
+   position: relative;
+
+
+    
+}
+.imgcont{
+    width: 100%;
+    flex-direction: column;
+    background-color: lightblue;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    position: relative;
+   
+}
+.writeup{
+   width: 100%;
+   height: 200px;
+  margin-top: -250px;
+  position: absolute;
+  text-shadow: 4px 2px 1px black;
+  
+  
+}
+.dep{
+    margin: auto;
+    color:blue;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 40px;
+
+}
+.writeup2{
+    width: 800px;
+    height: 20px;
+display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.gender{
+
+    display: flex;   
+}
+.adwidth{
+
+}
+.containerup3{
+    width: 96%;
+    height: 100vh;
+    background-color: white;
+   padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 10px black;
+}
+.footer {
+    position: absolute;
+    margin-top: 240vh;
+    color: black;
+    width: 100vh;
+    height: 20px;
+    background-color: blue;
+}
+/*media query*/
+@media screen and (max-width:400px) {
+    body{
+        background-color: yellow;
+        height:280vh;
+    }
+   
+    .containerup{
+        width: 695px;
+        background-color: red;
+        color: red;
+        position: absolute;
+        height: 240vh;
+     
+       
+    }
+    .comp3{
+        width: 698px;
+        height: 500px;
+        margin: auto;
+    }
+    .dep{
+        color: red;
+        font-size: 30px;
+    }
+    .writeup2{
+      margin-left: -100px;
+     
+    text-shadow: 1px 2px 1px black;
+    }
+    .containerup3{
+        width: 550px;
+        margin: auto;
+        height: 100vh;
+        margin-left: 50px;
+        margin-top: 120px;
+    }
+         .containerup2 {
+             width: 400px;
+             margin: auto;
+             height: 100vh;
+         }
+         .head{
+            width: 698px;
+         }
+    .imgcont{
+        width: 672px;
+        height: 430px;
+    }
+    input{
+        width: 140px;
+    }
+    .formall{
+        margin: auto;
+       margin-left: 10px;
+    }
+    .submit{
+        margin-left: 20px;
+        margin-top: 10px;
+        color: red;
+       
+    }
+    select{
+        width: 120px;
+       
+    }
+    label{
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+   .male{
+    margin-left: 25px;
+    
+   }
+    .male1{
+        position: absolute;
+        margin-left: -60px;
+        margin-top: 9px;
+       
+    }
+    .femaile1{
+        margin-left: 5px;
+        position: absolute;
+        margin-top: 9px;
+    }
+    .female{
+        margin-left: 85px;
+            position: absolute;
+    }
+    .footer{
+        margin-top: 1400px;
+        width: 670px;
+        position: absolute;
+        height: 100px;
+     
+    }
+}
